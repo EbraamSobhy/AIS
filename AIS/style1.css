@@ -1,0 +1,80 @@
+.nav-link{
+    text-align: bottom;
+    color: darkred;
+    font-family: cursive;
+}
+li {
+    display: inline;
+    margin-right: 70px;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+ul {
+    list-style-type: none;
+    margin: 2px; 
+    padding: 0;
+    overflow: hidden;
+    background-color: darkred;
+}
+.navbar a:hover {
+    background-color: darkblue;
+}
+.navbar {
+    overflow: hidden;
+    background-color: darkred;
+    font-family: Arial;
+
+}
+
+.navbar a {
+    float: left;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+#active{
+    background-color: darkblue;
+}
+footer{
+    background-color: darkred;
+    padding: 5px;
+}
+p{
+    text-align: center;
+    font-size: 30px;
+    color: whitesmoke;
+    font-family: cursive;
+}
+.data{
+    background-color: rgb(60, 179, 113);
+    padding: 30px;
+}
+.data2{
+    color: black;
+    font-size: 30px;
+}
+.Strategic{
+    background-color: white;
+    padding: 30px;
+    text-align: center;
+}
+.image{
+    width: 900px;
+    height: 700px;
+    padding: 40px;
+}
+.social{
+    background-color: darkred;
+    padding: 150px;
+    font-family: cursive;
+}
+.container {
+    display: flex;
+}
+
+.column {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid darkred;
+}

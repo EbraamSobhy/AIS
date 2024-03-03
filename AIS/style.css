@@ -1,0 +1,94 @@
+.entro{
+    font-size: 70px;
+    color: aliceblue;
+    padding: 10px;
+    margin: 10px;
+    font-family: cursive;
+}
+p{
+    font-size: 30px;
+    color: aliceblue;
+    padding: 10px;
+    margin: 10px;
+}
+.ph{
+    width: 1200px;
+    height: 800px;
+    padding: 50px;
+    margin: 10px;
+}
+.nav-link{
+    text-align: bottom;
+    color: darkred;
+    font-family: cursive;
+}
+li {
+    display: inline;
+    margin-right: 70px;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+ul {
+    list-style-type: none;
+    margin: 2px; 
+    padding: 0;
+    overflow: hidden;
+    background-color: darkred;
+}
+.navbar a:hover {
+    background-color: darkblue;
+}
+.navbar {
+    overflow: hidden;
+    background-color: darkred;
+    font-family: Arial;
+
+}
+
+.navbar a {
+    float: left;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+#active{
+    background-color: darkblue;
+}
+footer{
+    background-color: darkred;
+    padding: 2px;
+}
+.slideshow-container {
+    position: relative;
+    width: 100%;
+    height: 800px;
+    overflow: hidden;
+}
+
+.slide {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    background-color: darkblue;
+}
+
+.slide.active {
+    opacity: 1;
+}
+.social{
+    background-color: darkred;
+    padding: 150px;
+    font-family: cursive;
+}
+.container {
+    display: flex;
+}
+
+.column {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid darkred;
+}
