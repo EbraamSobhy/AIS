@@ -1,0 +1,132 @@
+.nav-link{
+    text-align: bottom;
+    color: darkred;
+    font-family: cursive;
+}
+li {
+    display: inline;
+    margin-right: 70px;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+ul {
+    list-style-type: none;
+    margin: 2px; 
+    padding: 0;
+    overflow: hidden;
+    background-color: darkred;
+}
+.navbar a:hover {
+    background-color: darkblue;
+}
+.navbar {
+    overflow: hidden;
+    background-color: darkred;
+}
+
+.navbar a {
+    float: left;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+#active{
+    background-color: darkblue;
+}
+footer{
+    background-color: darkred;
+    padding: 5px;
+}
+img{
+    width : 900px;
+    height: 600px;
+}
+.vision{
+    padding: 20px;
+    font-size: 50px;
+}
+p{
+    padding: 20px ;
+    font-size: 35px;
+}
+dt{
+    padding: 15px ;
+    font-size: 20px;
+}
+.card-title{
+    color: black;
+}
+.card-text{
+    color: black;
+}
+.card:hover {
+    border-color: rgb(13, 110, 253);
+    box-shadow: 0px 0px 10px 2px rgb(13, 110, 253);
+}
+
+.card {
+    transition: border-color 1s, box-shadow 0.5s;
+}
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 6px 0 rgba(22, 22, 22, 0.2);
+}
+
+.card {
+    transition: transform 0.2s ease;
+}
+.card-body{
+    height: 600px;
+}
+.card-body1{
+    height: 250px;
+}
+.card-body2{
+    height: 255px;
+}
+.social{
+    background-color: darkred;
+    padding: 150px;
+    font-family: cursive;
+    text-align: center;
+    font-size: 30px;
+    color: whitesmoke;
+}
+.container {
+    display: flex;
+}
+
+.column {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid darkred;
+}
+
+h1{
+    cursor: pointer;
+}
+
+#myDIV {
+    display: none;
+}
+
+#myDIV2 {
+    display: none;
+}
+
+#myDIV3 {
+    display: none;
+}
+
+#myDIV4 {
+    display: none;
+}
+
+#myDIV5 {
+    display: none;
+}
+
+#myDIV6 {
+    display: none;
+}

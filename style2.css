@@ -1,0 +1,104 @@
+.nav-link{
+    text-align: bottom;
+    color: darkred;
+    font-family: cursive;
+}
+li {
+    display: inline;
+    margin-right: 70px;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+ul {
+    list-style-type: none;
+    margin: 2px; 
+    padding: 0;
+    overflow: hidden;
+    background-color: darkred;
+}
+.navbar a:hover {
+    background-color: darkblue;
+}
+.navbar {
+    overflow: hidden;
+    background-color: darkred;
+    font-family: Arial;
+}
+
+.navbar a {
+    float: left;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+#active{
+    background-color: darkblue;
+}
+footer{
+    background-color: darkred;
+    padding: 5px;
+}
+.image {
+    width: 900px;
+    height: 700px;
+    padding: 40px;
+}
+.dep{
+    background-color: darkblue;
+}
+.dep2{
+    background-color: darkblue;
+}
+h3{
+    padding: 10px;
+    cursor: pointer;
+}
+dt{
+    padding: 20px;
+}
+.image2{
+    width: 1200px;
+    height: 900px;
+    padding: 40px;
+}
+.social{
+    background-color: darkred;
+    padding: 150px;
+    font-family: cursive;
+}
+.container {
+    display: flex;
+}
+
+.column {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid darkred;
+}
+p{
+    text-align: center;
+    font-size: 30px;
+    color: whitesmoke;
+    font-family: cursive;
+}
+
+#myDIV {
+    display: none;
+}
+
+#myDIV2{
+    display: none;
+}
+
+#myDIV3{
+    display: none;
+}
+
+#myDIV4{
+    display: none;
+}
+
+#myDIV5{
+    display: none;
+}
